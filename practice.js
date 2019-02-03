@@ -82,5 +82,6 @@ console.log(JSON.stringify(raghu));
 
 console.log(apple.describe());
 
+//Added new lines
 let raghu = "Raghu";
 console.log(raghu);
