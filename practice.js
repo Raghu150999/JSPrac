@@ -78,3 +78,6 @@ console.log(Fruit);
 console.log(JSON.stringify(raghu));
 
 console.log(apple.describe());
+
+let raghu = "Raghu";
+console.log(raghu);
