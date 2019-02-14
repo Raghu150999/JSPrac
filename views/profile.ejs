@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EJS</title>
+</head>
+<body>
+    <% include partials/nav.ejs %>
+    <h1>Welcome, <%= username %>.</h1>
+    <p><strong>Age: </strong> <%= data.age %></p>
+    <p><strong>Branch: </strong> <%= data.branch %></p>
+    <ul>
+        <% 
+            var hobbies = data.hobbies;
+            for(var i=0;i<hobbies.length;i++)
+            {
+                %>
+                <li><%= hobbies[i] %></li>
+                <%   
+            }
+        %>
+    </ul>
+</body>
+</html>

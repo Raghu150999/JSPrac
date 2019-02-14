@@ -1,0 +1,12 @@
+p, a, button, .attr{
+    background-color: #eeeeee;
+    font-family: monospace;
+    font-size: 3vw;
+    text-align: center;
+    color:red;
+}
+
+button:hover{
+    background: #dddddd;
+    
+}

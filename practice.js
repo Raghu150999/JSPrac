@@ -81,7 +81,3 @@ console.log(Fruit);
 console.log(JSON.stringify(raghu));
 
 console.log(apple.describe());
-
-//Added new lines in trial branch
-let raghu = "Raghu";
-console.log(raghu);

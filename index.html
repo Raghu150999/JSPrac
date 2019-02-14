@@ -4,10 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Babel -->
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- Bootstrap CDN -->
+
+    <!-- React and ReactDOM CDN -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <!-- React and ReactDOM CDN -->
+
+    <!-- MathJax for latex -->
+    <!--
+    <script type="text/x-mathjax-config">
+    	MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+      	</script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    -->
+    <!-- MathJax for latex -->
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+        crossorigin="anonymous">
+    <!-- Font Awesome Icons -->
+
+    <link rel="stylesheet" href="/assets/index.css" type="text/css">
     <title>Document</title>
 </head>
 <body>
-    <h1 id = "h1">Hello World</h1>
-    <script src="index.js"></script>
+    <div class="jumbotron">
+        <h1>This is a Jumbotron!</h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <p>First Column</p>
+            </div>
+            <div class="col-md-4">
+                <p>Second Column</p>
+            </div>
+        </div>
+    </div>
+    <!-- MathJax Latex Example -->
+    <!-- <p>$$N \leq 0$$ $$\int_{a}^{b}$$ $$\sum_{i=1}^{\infty} i = \frac{-1}{12}$$</p> -->
+
+    <script src="index.js" type="text/babel"></script>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <button class="col-md-offset-5 col-md-2" id="btn" onclick="clickevent()">Click Me</button>
+        </div>
+    </div>
+    <div id="app"></div>
+    <a href="link.html"> Open link.html </a>
+    <br>
+    <!-- Using icons -->
+    <i class="glyphicon glyphicon-cloud" style="font-size:10em"></i> 
+    <!-- Using Icons -->
+
+
 </body>
 </html>
